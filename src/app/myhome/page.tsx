@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react"
 export default function App(){
       const [count, setCount] = useState(0);
-      const [snack ,setSnack]=useState(null)
+      const [snack, setSnack] = useState<string | null>(null)
 
       function showSnackbar(message: string) {
     setSnack(message);

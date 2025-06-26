@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-white text-black;
+  @apply bg-white text-black dark:bg-black dark:text-white transition-colors duration-300;
 }
 
 @keyframes fade-in-out {
